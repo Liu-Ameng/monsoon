@@ -5,6 +5,13 @@ Monsoon means rainy season in southern Asia when the southwestern monsoon blows,
 
 To be continue;
 
+##Compile##
+
+###mycalc###
+    yacc -dv mycalc.y 
+    lex mycalc.l
+    gcc -o mycalc y.tab.c lex.yy.c
+    ./mycalc
 
 ##Reference##
 
