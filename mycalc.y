@@ -1,6 +1,7 @@
 %{
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 #define YYDEBUG 1
 %}
 %union {
